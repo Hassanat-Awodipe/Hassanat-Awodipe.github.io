@@ -9,7 +9,7 @@ datasets\WeRateDogs_page.png
 > WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog. These ratings almost always have a denominator of 10. The numerators, though? Almost always greater than 10. 11/10, 12/10, 13/10, etc. Why? Because "they're good dogs Brent." 
  
 <p align="center">
-  <img width="460" height="300" src="datasets\WeRateDogs_page.png">
+  <img width="460" height="300" src="WeRateDogs_page.png">
 </p>
 
 > The aim of this analysis is to display my proficiency in Data Wrangling by gathering the data of WeRateDogs from multiple sources and in different file formats. After wrangling, I analysed the data to understand how twitter users react to the tweets of WeRateDogs. 
@@ -256,7 +256,7 @@ twitter_archive_master.head()
 
 > And this is the first tweet in the data as it appears on twitter
 <p align="center">
-  <img width="360" height="100" src="datasets\https://github.com/Hassanat-Awodipe/Tweet-Analysis-of-WeRateDogs/blob/main/Tweet_example.png">
+  <img width="560" height="500" src="Tweet_example.png">
 </p>
 
 ## Analysis Questions
