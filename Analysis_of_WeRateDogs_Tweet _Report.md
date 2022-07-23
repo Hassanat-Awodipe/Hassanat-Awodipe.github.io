@@ -37,6 +37,24 @@ datasets\WeRateDogs_page.png
 >   - `p2_conf` is how confident the algorithm is in its #2 prediction 
 >   - `p2_dog` is whether or not the #2 prediction is a breed of dog, etc
 
+
+```python
+import pandas as pd
+```
+
+
+```python
+pd.set_option('display.max_colwidth', None)
+```
+
+
+```python
+print('There are {} rows and {} columns'.format(twitter_archive_master.shape[0], twitter_archive_master.shape[1]))
+```
+
+
+
+
     There are 2175 rows and 23 columns
     
 
