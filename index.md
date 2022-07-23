@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Project 1 Title](/sample_page)
+[Project 1 Title](/Analysis of WeRateDogs' Tweet - Report)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 > This analysis was carried out based on the 
 ---
@@ -19,7 +19,7 @@
 
 ### Category Name 2
 
-- [Project 1 Title](http://example.com/)
+- [Project 1 Title](/Analysis of WeRateDogs' Tweet - Report)
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
