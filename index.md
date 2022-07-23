@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Project 1 Title](/Analysis of WeRateDogs' Tweet - Report)
+[Project 1 Title](/Analysis_of_WeRateDogs_Tweet _Report.md)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 > This analysis was carried out based on the 
 ---
