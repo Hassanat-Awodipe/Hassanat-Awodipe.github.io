@@ -17,59 +17,25 @@ datasets\WeRateDogs_page.png
 > Data was gathered from a CSV file, by querying Twitter API and downloading a TSV file from Udacity server. These datasets were then cleaned and analysed. The wrangling steps which involves gather, assess and clean can be found [here](https://github.com/Hassanat-Awodipe/Tweet-Analysis-of-WeRateDogs/blob/main/Analysis%20of%20WeRateDogs'%20Tweet%20-%20Code.ipynb). 
 >
 > In this report, I will be working with the final, cleaned dataset which has the following columns:
->
 >   - `tweet_id` which is a unique id for each tweet
->
 >   - `timestamp` which is the time the tweet was made
->
 >   - `text` contains the actual tweet and the ratings
->
 >   - `rating numerator and denominator` are derived from the tweet in text column
->
 >   - `name` is the name of the dog in the tweet, also gotten from the text column
->   
 >   - `retweet` is the count of retweets for that tweet
->
 >   - `favourite` is the count of favourites for that tweet
->
 >   - `dog stage` is the stage of the dog(s) in the tweet i.e. `doggo, fluffer, puppo, pupper`. The dog stage was invented by WeRateDogs
->
 >   - `shortened_url` contains the abridged link of the tweet
->
 >   - `main_urls` contains the full link with the tweet-id as the endpoint
->
 >   - `additional_urls` contains the additional link associated with the tweet
->
 >   - `jpg_url` contains the link to the image used for the prediction
->
 >   - `img_num` is the number of the image that was used for the prediction
->
 >   - `p1` is the algorithm's #1 prediction for the image in the tweet
->
 >   - `p1_conf` is how confident the algorithm is in its #1 prediction
->
 >   - `p1_dog` is whether or not the #1 prediction is a breed of dog
->
 >   - `p2` is the algorithm's second most likely prediction 
->
 >   - `p2_conf` is how confident the algorithm is in its #2 prediction 
->
 >   - `p2_dog` is whether or not the #2 prediction is a breed of dog, etc
-
-
-```python
-import pandas as pd
-```
-
-
-```python
-pd.set_option('display.max_colwidth', None)
-```
-
-
-```python
-print('There are {} rows and {} columns'.format(twitter_archive_master.shape[0], twitter_archive_master.shape[1]))
-```
 
     There are 2175 rows and 23 columns
     
